@@ -27,7 +27,7 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::view('settings', 'admin.settings.index')->name('admin.settings');
 
     // Admin section placeholders
-    Route::view('member', 'admin.pages.member')->name('admin.member');
+    Route::view('members', 'admin.pages.members')->name('admin.members');
     Route::view('reports', 'admin.pages.reports')->name('admin.reports');
     Route::view('inventory', 'admin.pages.inventory')->name('admin.inventory');
     Route::view('pos', 'admin.pages.pos')->name('admin.pos');
