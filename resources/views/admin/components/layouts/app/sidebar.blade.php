@@ -3,7 +3,9 @@
 
 <head>
     @include('partials.head')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 
 <body class="min-h-screen bg-white">
     <flux:sidebar sticky stashable class="border-e border-[#C6D870] bg-[#EFF5D2]">
@@ -36,9 +38,10 @@
                     :current="request()->routeIs('admin.deadline')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.deadline')])" wire:navigate>
                     {{ __('Deadline') }}
                 </flux:navlist.item>
+
+
             </flux:navlist.group>
         </flux:navlist>
-
 
         {{-- <flux:navlist variant="outline">
             <flux:navlist.item icon="folder-git-2" href="https://github.com/laravel/livewire-starter-kit"
@@ -51,6 +54,17 @@
                 {{ __('Documentation') }}
             </flux:navlist.item>
         </flux:navlist> --}}
+
+        <flux:spacer />
+
+        <flux:navlist variant="outline" class="px-4 mb-4">
+            <flux:navlist.group :heading="__('Others')" class="grid">
+                <flux:navlist.item icon="cog" :href="route('admin.settings')"
+                    :current="request()->routeIs('admin.settings')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.settings')])" wire:navigate>
+                    {{ __('Settings') }}
+                </flux:navlist.item>
+            </flux:navlist.group>
+        </flux:navlist>
 
         <!-- Desktop User Menu -->
         <flux:dropdown class="hidden lg:block" position="bottom" align="start">
