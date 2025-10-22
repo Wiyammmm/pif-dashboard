@@ -24,14 +24,14 @@ Route::view('member/settings', 'member.settings.index')
     ->name('member.settings');
 
 Route::prefix('admin')->middleware(['auth'])->group(function () {
-    Route::view('settings', 'admin.settings.index')->name('admin.settings');
+    Route::view('settings', 'admin.pages.settings.index')->name('admin.settings');
 
     // Admin section placeholders
-    Route::view('member', 'admin.pages.member')->name('admin.member');
-    Route::view('reports', 'admin.pages.reports')->name('admin.reports');
-    Route::view('inventory', 'admin.pages.inventory')->name('admin.inventory');
-    Route::view('pos', 'admin.pages.pos')->name('admin.pos');
-    Route::view('deadline', 'admin.pages.deadline')->name('admin.deadline');
+    Route::view('members', 'admin.pages.members.index')->name('admin.members');
+    Route::view('reports', 'admin.pages.reports.index')->name('admin.reports');
+    Route::view('inventory', 'admin.pages.inventory.index')->name('admin.inventory');
+    Route::view('pos', 'admin.pages.pos.index')->name('admin.pos');
+    Route::view('deadline', 'admin.pages.deadline.index')->name('admin.deadline');
 
     Volt::route('settings/profile', 'settings.profile')->name('profile.edit');
     Volt::route('settings/password', 'settings.password')->name('password.edit');

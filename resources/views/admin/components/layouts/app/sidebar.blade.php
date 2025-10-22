@@ -3,40 +3,45 @@
 
 <head>
     @include('partials.head')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
+
 <body class="min-h-screen bg-white">
-    <flux:sidebar sticky stashable class="border-e border-zinc-200 bg-[#eefdf4]">
+    <flux:sidebar sticky stashable class="border-e border-[#C6D870] bg-[#EFF5D2]">
         <flux:sidebar.toggle class="lg:hidden" icon="x-mark" />
 
-        <a href="{{ route('dashboard') }}" class="me-5 flex items-center space-x-2 rtl:space-x-reverse" wire:navigate>
+        <a href="{{ route('dashboard') }}"
+            class="flex items-center justify-center space-x-2 rtl:space-x-reverse bg-white w-full py-4.5 px-4"
+            wire:navigate>
             <x-admin::app-logo />
         </a>
 
-        <flux:navlist variant="outline">
+        <flux:navlist variant="outline" class="px-4">
             <flux:navlist.group :heading="__('Platform')" class="grid">
                 <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')"
-                    class="@class(['bg-[#d3ffd2]' => request()->routeIs('dashboard')])" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
-                <flux:navlist.item icon="users" :href="route('admin.member')"
-                    :current="request()->routeIs('admin.member')" class="@class(['bg-[#d3ffd2]' => request()->routeIs('admin.member')])" wire:navigate>
-                    {{ __('Member') }}</flux:navlist.item>
+                    class="@class(['bg-[#C6D870]' => request()->routeIs('dashboard')])" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
+                <flux:navlist.item icon="users" :href="route('admin.members')"
+                    :current="request()->routeIs('admin.members')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.members')])" wire:navigate>
+                    {{ __('Members') }}</flux:navlist.item>
                 <flux:navlist.item icon="folder-git-2" :href="route('admin.reports')"
-                    :current="request()->routeIs('admin.reports')" class="@class(['bg-[#d3ffd2]' => request()->routeIs('admin.reports')])" wire:navigate>
+                    :current="request()->routeIs('admin.reports')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.reports')])" wire:navigate>
                     {{ __('Reports') }}</flux:navlist.item>
                 <flux:navlist.item icon="folder" :href="route('admin.inventory')"
-                    :current="request()->routeIs('admin.inventory')" class="@class(['bg-[#d3ffd2]' => request()->routeIs('admin.inventory')])" wire:navigate>
+                    :current="request()->routeIs('admin.inventory')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.inventory')])" wire:navigate>
                     {{ __('Inventory') }}
                 </flux:navlist.item>
                 <flux:navlist.item icon="layout-grid" :href="route('admin.pos')"
-                    :current="request()->routeIs('admin.pos')" class="@class(['bg-[#d3ffd2]' => request()->routeIs('admin.pos')])" wire:navigate>
+                    :current="request()->routeIs('admin.pos')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.pos')])" wire:navigate>
                     {{ __('POS') }}</flux:navlist.item>
                 <flux:navlist.item icon="calendar" :href="route('admin.deadline')"
-                    :current="request()->routeIs('admin.deadline')" class="@class(['bg-[#d3ffd2]' => request()->routeIs('admin.deadline')])" wire:navigate>
+                    :current="request()->routeIs('admin.deadline')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.deadline')])" wire:navigate>
                     {{ __('Deadline') }}
                 </flux:navlist.item>
+
+
             </flux:navlist.group>
         </flux:navlist>
-
 
         {{-- <flux:navlist variant="outline">
             <flux:navlist.item icon="folder-git-2" href="https://github.com/laravel/livewire-starter-kit"
@@ -49,6 +54,17 @@
                 {{ __('Documentation') }}
             </flux:navlist.item>
         </flux:navlist> --}}
+
+        <flux:spacer />
+
+        <flux:navlist variant="outline" class="px-4 mb-4">
+            <flux:navlist.group :heading="__('Others')" class="grid">
+                <flux:navlist.item icon="cog" :href="route('admin.settings')"
+                    :current="request()->routeIs('admin.settings')" class="@class(['bg-[#C6D870]' => request()->routeIs('admin.settings')])" wire:navigate>
+                    {{ __('Settings') }}
+                </flux:navlist.item>
+            </flux:navlist.group>
+        </flux:navlist>
 
         <!-- Desktop User Menu -->
         <flux:dropdown class="hidden lg:block" position="bottom" align="start">
@@ -103,7 +119,7 @@
             $pageTitle =
                 $title ??
                 match ($routeName) {
-                    'admin.member' => __('Member'),
+                    'admin.members' => __('Members'),
                     'admin.reports' => __('Reports'),
                     'admin.inventory' => __('Inventory'),
                     'admin.pos' => __('Point of Sale'),
@@ -112,7 +128,7 @@
                     default => null,
                 };
             $pageDescription = match ($routeName) {
-                'admin.member' => __('Monitor all member accounts, earnings, and ranks'),
+                'admin.members' => __('Monitor all member accounts, earnings, and ranks'),
                 'admin.reports' => __('Analyze platform metrics and export summaries'),
                 'admin.inventory' => __('Track stock levels, SKUs, and adjustments'),
                 'admin.pos' => __('Process orders and payments'),
@@ -124,7 +140,7 @@
 
         @if ($pageTitle)
             <div class="mt-2 mb-3 px-1">
-                <span class="text-lg font-semibold">{{ $pageTitle }}</span>
+                <span class="text-3xl font-semibold">{{ $pageTitle }}</span>
                 @if ($pageDescription)
                     <flux:subheading class="text-sm">{{ $pageDescription }}</flux:subheading>
                 @endif

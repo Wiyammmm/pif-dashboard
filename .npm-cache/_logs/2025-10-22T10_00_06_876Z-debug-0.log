@@ -1,0 +1,527 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npmrc
+5 silly config load:file:/Users/janicenofuente/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npm-cache/_logs/2025-10-22T10_00_06_876Z-
+10 verbose logfile /Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npm-cache/_logs/2025-10-22T10_00_06_876Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-wasm32-wasi
+17 silly reify mark deleted [
+17 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-wasm32-wasi'
+17 silly reify ]
+18 silly audit bulk request {
+18 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+18 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+18 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+18 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+18 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+18 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+18 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+18 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+18 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+18 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+18 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+18 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+18 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-android-arm64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-darwin-arm64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-darwin-x64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-freebsd-x64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.9.5', '4.52.5' ],
+18 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.52.5' ],
+18 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.52.5' ],
+18 silly audit   '@tailwindcss/node': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.15' ],
+18 silly audit   '@tailwindcss/vite': [ '4.1.15' ],
+18 silly audit   '@types/estree': [ '1.0.8' ],
+18 silly audit   '@vue/reactivity': [ '3.1.5' ],
+18 silly audit   '@vue/shared': [ '3.1.5' ],
+18 silly audit   alpinejs: [ '3.15.0' ],
+18 silly audit   'ansi-styles': [ '4.3.0' ],
+18 silly audit   asynckit: [ '0.4.0' ],
+18 silly audit   autoprefixer: [ '10.4.21' ],
+18 silly audit   axios: [ '1.12.2' ],
+18 silly audit   'baseline-browser-mapping': [ '2.8.19' ],
+18 silly audit   browserslist: [ '4.26.3' ],
+18 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+18 silly audit   'caniuse-lite': [ '1.0.30001751' ],
+18 silly audit   chalk: [ '4.1.2' ],
+18 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+18 silly audit   cliui: [ '8.0.1' ],
+18 silly audit   'ansi-regex': [ '5.0.1' ],
+18 silly audit   'emoji-regex': [ '8.0.0' ],
+18 silly audit   'string-width': [ '4.2.3' ],
+18 silly audit   'strip-ansi': [ '6.0.1' ],
+18 silly audit   'wrap-ansi': [ '7.0.0' ],
+18 silly audit   'color-convert': [ '2.0.1' ],
+18 silly audit   'color-name': [ '1.1.4' ],
+18 silly audit   'combined-stream': [ '1.0.8' ],
+18 silly audit   concurrently: [ '9.2.1' ],
+18 silly audit   'delayed-stream': [ '1.0.0' ],
+18 silly audit   'detect-libc': [ '2.1.2' ],
+18 silly audit   'dunder-proto': [ '1.0.1' ],
+18 silly audit   'electron-to-chromium': [ '1.5.238' ],
+18 silly audit   'enhanced-resolve': [ '5.18.3' ],
+18 silly audit   'es-define-property': [ '1.0.1' ],
+18 silly audit   'es-errors': [ '1.3.0' ],
+18 silly audit   'es-object-atoms': [ '1.1.1' ],
+18 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+18 silly audit   esbuild: [ '0.25.11' ],
+18 silly audit   escalade: [ '3.2.0' ],
+18 silly audit   'follow-redirects': [ '1.15.11' ],
+18 silly audit   'form-data': [ '4.0.4' ],
+18 silly audit   'fraction.js': [ '4.3.7' ],
+18 silly audit   fsevents: [ '2.3.3' ],
+18 silly audit   'function-bind': [ '1.1.2' ],
+18 silly audit   'get-caller-file': [ '2.0.5' ],
+18 silly audit   'get-intrinsic': [ '1.3.0' ],
+18 silly audit   'get-proto': [ '1.0.1' ],
+18 silly audit   gopd: [ '1.2.0' ],
+18 silly audit   'graceful-fs': [ '4.2.11' ],
+18 silly audit   'has-flag': [ '4.0.0' ],
+18 silly audit   'has-symbols': [ '1.1.0' ],
+18 silly audit   'has-tostringtag': [ '1.0.2' ],
+18 silly audit   hasown: [ '2.0.2' ],
+18 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+18 silly audit   jiti: [ '2.6.1' ],
+18 silly audit   'laravel-vite-plugin': [ '2.0.1' ],
+18 silly audit   lightningcss: [ '1.30.2' ],
+18 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+18 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+18 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+18 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+18 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+18 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+18 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+18 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+18 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+18 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+18 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+18 silly audit   'magic-string': [ '0.30.19' ],
+18 silly audit   'math-intrinsics': [ '1.1.0' ],
+18 silly audit   'mime-db': [ '1.52.0' ],
+18 silly audit   'mime-types': [ '2.1.35' ],
+18 silly audit   nanoid: [ '3.3.11' ],
+18 silly audit   'node-releases': [ '2.0.26' ],
+18 silly audit   'normalize-range': [ '0.1.2' ],
+18 silly audit   picocolors: [ '1.1.1' ],
+18 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+18 silly audit   postcss: [ '8.5.6' ],
+18 silly audit   'postcss-value-parser': [ '4.2.0' ],
+18 silly audit   'proxy-from-env': [ '1.1.0' ],
+18 silly audit   'require-directory': [ '2.1.1' ],
+18 silly audit   rollup: [ '4.52.5' ],
+18 silly audit   rxjs: [ '7.8.2' ],
+18 silly audit   'shell-quote': [ '1.8.3' ],
+18 silly audit   'source-map-js': [ '1.2.1' ],
+18 silly audit   tailwindcss: [ '4.1.15' ],
+18 silly audit   tapable: [ '2.3.0' ],
+18 silly audit   tinyglobby: [ '0.2.15' ],
+18 silly audit   fdir: [ '6.5.0' ],
+18 silly audit   'tree-kill': [ '1.2.2' ],
+18 silly audit   tslib: [ '2.8.1' ],
+18 silly audit   'update-browserslist-db': [ '1.1.3' ],
+18 silly audit   vite: [ '7.1.11' ],
+18 silly audit   'vite-plugin-full-reload': [ '1.2.0' ],
+18 silly audit   y18n: [ '5.0.8' ],
+18 silly audit   yargs: [ '17.7.2' ],
+18 silly audit   'yargs-parser': [ '21.1.1' ],
+18 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.15' ]
+18 silly audit }
+19 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-win32-x64-msvc
+20 silly reify mark deleted [
+20 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-win32-x64-msvc'
+20 silly reify ]
+21 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-win32-arm64-msvc
+22 silly reify mark deleted [
+22 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-win32-arm64-msvc'
+22 silly reify ]
+23 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-x64-musl
+24 silly reify mark deleted [
+24 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-x64-musl'
+24 silly reify ]
+25 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-x64-gnu
+26 silly reify mark deleted [
+26 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-x64-gnu'
+26 silly reify ]
+27 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm64-musl
+28 silly reify mark deleted [
+28 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm64-musl'
+28 silly reify ]
+29 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm64-gnu
+30 silly reify mark deleted [
+30 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm64-gnu'
+30 silly reify ]
+31 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm-gnueabihf
+32 silly reify mark deleted [
+32 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-linux-arm-gnueabihf'
+32 silly reify ]
+33 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-freebsd-x64
+34 silly reify mark deleted [
+34 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-freebsd-x64'
+34 silly reify ]
+35 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-darwin-x64
+36 silly reify mark deleted [
+36 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-darwin-x64'
+36 silly reify ]
+37 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-android-arm64
+38 silly reify mark deleted [
+38 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/lightningcss-android-arm64'
+38 silly reify ]
+39 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-win32-x64-msvc
+40 silly reify mark deleted [
+40 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+40 silly reify ]
+41 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+42 silly reify mark deleted [
+42 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+42 silly reify ]
+43 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-x64-musl
+44 silly reify mark deleted [
+44 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-x64-musl'
+44 silly reify ]
+45 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-x64-gnu
+46 silly reify mark deleted [
+46 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+46 silly reify ]
+47 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm64-musl
+48 silly reify mark deleted [
+48 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+48 silly reify ]
+49 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+50 silly reify mark deleted [
+50 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+50 silly reify ]
+51 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+52 silly reify mark deleted [
+52 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+52 silly reify ]
+53 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-freebsd-x64
+54 silly reify mark deleted [
+54 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-freebsd-x64'
+54 silly reify ]
+55 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-darwin-x64
+56 silly reify mark deleted [
+56 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-darwin-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-android-arm64
+58 silly reify mark deleted [
+58 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@tailwindcss/oxide-android-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-x64-msvc
+60 silly reify mark deleted [
+60 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-x64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-x64-gnu
+62 silly reify mark deleted [
+62 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-x64-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-ia32-msvc
+64 silly reify mark deleted [
+64 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-ia32-msvc'
+64 silly reify ]
+65 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-arm64-msvc
+66 silly reify mark deleted [
+66 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-win32-arm64-msvc'
+66 silly reify ]
+67 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-openharmony-arm64
+68 silly reify mark deleted [
+68 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-openharmony-arm64'
+68 silly reify ]
+69 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-x64-musl
+70 silly reify mark deleted [
+70 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-x64-musl'
+70 silly reify ]
+71 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-x64-gnu
+72 silly reify mark deleted [
+72 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-x64-gnu'
+72 silly reify ]
+73 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-s390x-gnu
+74 silly reify mark deleted [
+74 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-s390x-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-riscv64-musl
+76 silly reify mark deleted [
+76 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-riscv64-musl'
+76 silly reify ]
+77 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-riscv64-gnu
+78 silly reify mark deleted [
+78 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-riscv64-gnu'
+78 silly reify ]
+79 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-ppc64-gnu
+80 silly reify mark deleted [
+80 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-ppc64-gnu'
+80 silly reify ]
+81 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-loong64-gnu
+82 silly reify mark deleted [
+82 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-loong64-gnu'
+82 silly reify ]
+83 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm64-musl
+84 silly reify mark deleted [
+84 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm64-musl'
+84 silly reify ]
+85 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm64-gnu
+86 silly reify mark deleted [
+86 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm64-gnu'
+86 silly reify ]
+87 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm-musleabihf
+88 silly reify mark deleted [
+88 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm-musleabihf'
+88 silly reify ]
+89 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm-gnueabihf
+90 silly reify mark deleted [
+90 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+90 silly reify ]
+91 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-freebsd-x64
+92 silly reify mark deleted [
+92 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-freebsd-x64'
+92 silly reify ]
+93 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-freebsd-arm64
+94 silly reify mark deleted [
+94 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-freebsd-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-darwin-x64
+96 silly reify mark deleted [
+96 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-darwin-x64'
+96 silly reify ]
+97 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-android-arm64
+98 silly reify mark deleted [
+98 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-android-arm64'
+98 silly reify ]
+99 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-android-arm-eabi
+100 silly reify mark deleted [
+100 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@rollup/rollup-android-arm-eabi'
+100 silly reify ]
+101 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-x64
+102 silly reify mark deleted [
+102 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-x64'
+102 silly reify ]
+103 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-ia32
+104 silly reify mark deleted [
+104 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-ia32'
+104 silly reify ]
+105 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-arm64
+106 silly reify mark deleted [
+106 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/win32-arm64'
+106 silly reify ]
+107 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/sunos-x64
+108 silly reify mark deleted [
+108 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/sunos-x64'
+108 silly reify ]
+109 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openharmony-arm64
+110 silly reify mark deleted [
+110 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openharmony-arm64'
+110 silly reify ]
+111 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openbsd-x64
+112 silly reify mark deleted [
+112 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openbsd-x64'
+112 silly reify ]
+113 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openbsd-arm64
+114 silly reify mark deleted [
+114 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/openbsd-arm64'
+114 silly reify ]
+115 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/netbsd-x64
+116 silly reify mark deleted [
+116 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/netbsd-x64'
+116 silly reify ]
+117 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/netbsd-arm64
+118 silly reify mark deleted [
+118 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/netbsd-arm64'
+118 silly reify ]
+119 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-x64
+120 silly reify mark deleted [
+120 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-x64'
+120 silly reify ]
+121 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-s390x
+122 silly reify mark deleted [
+122 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-s390x'
+122 silly reify ]
+123 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-riscv64
+124 silly reify mark deleted [
+124 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-riscv64'
+124 silly reify ]
+125 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-ppc64
+126 silly reify mark deleted [
+126 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-ppc64'
+126 silly reify ]
+127 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-mips64el
+128 silly reify mark deleted [
+128 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-mips64el'
+128 silly reify ]
+129 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-loong64
+130 silly reify mark deleted [
+130 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-loong64'
+130 silly reify ]
+131 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-ia32
+132 silly reify mark deleted [
+132 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-ia32'
+132 silly reify ]
+133 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-arm64
+134 silly reify mark deleted [
+134 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-arm64'
+134 silly reify ]
+135 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-arm
+136 silly reify mark deleted [
+136 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/linux-arm'
+136 silly reify ]
+137 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/freebsd-x64
+138 silly reify mark deleted [
+138 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/freebsd-x64'
+138 silly reify ]
+139 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/freebsd-arm64
+140 silly reify mark deleted [
+140 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/freebsd-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/darwin-x64
+142 silly reify mark deleted [
+142 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/darwin-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-x64
+144 silly reify mark deleted [
+144 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-x64'
+144 silly reify ]
+145 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-arm64
+146 silly reify mark deleted [
+146 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-arm64'
+146 silly reify ]
+147 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-arm
+148 silly reify mark deleted [
+148 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/android-arm'
+148 silly reify ]
+149 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/aix-ppc64
+150 silly reify mark deleted [
+150 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/@esbuild/aix-ppc64'
+150 silly reify ]
+151 verbose reify failed optional dependency /Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/rollup/node_modules/@rollup/rollup-linux-x64-gnu
+152 silly reify mark deleted [
+152 silly reify   '/Users/janicenofuente/Desktop/web/pif/pif-dashboard/node_modules/rollup/node_modules/@rollup/rollup-linux-x64-gnu'
+152 silly reify ]
+153 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 556ms
+154 silly audit report {}
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 verbose cwd /Users/janicenofuente/Desktop/web/pif/pif-dashboard
+224 verbose os Darwin 24.3.0
+225 verbose node v23.11.0
+226 verbose npm  v10.9.2
+227 verbose exit 0
+228 info ok
