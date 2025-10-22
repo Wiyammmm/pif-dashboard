@@ -37,7 +37,7 @@
     }
 @endphp
 
-<div class="{{ $widthClass }} {{ $containerClass }}"
+<div x-cloak class="{{ $widthClass }} {{ $containerClass }}"
     @if ($dynamicWidth) x-data="{
          selectId: '{{ $selectId }}',
          minWidth: '{{ $minWidth }}',
