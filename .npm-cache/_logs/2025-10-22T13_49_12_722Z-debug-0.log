@@ -1,0 +1,20 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npmrc
+5 silly config load:file:/Users/janicenofuente/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm view @tailwindcss/oxide-linux-x64-gnu description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "@tailwindcss/oxide-linux-x64-gnu" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:/Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npm-cache/_logs/2025-10-22T13_49_12_722Z-
+10 verbose logfile /Users/janicenofuente/Desktop/web/pif/pif-dashboard/.npm-cache/_logs/2025-10-22T13_49_12_722Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 396ms (cache updated)
+14 verbose cwd /Users/janicenofuente/Desktop/web/pif/pif-dashboard
+15 verbose os Darwin 24.3.0
+16 verbose node v23.11.0
+17 verbose npm  v10.9.2
+18 verbose exit 0
+19 info ok

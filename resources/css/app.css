@@ -26,6 +26,9 @@
     --color-accent: var(--color-neutral-800);
     --color-accent-content: var(--color-neutral-800);
     --color-accent-foreground: var(--color-white);
+
+    /* Ensure spacing scale is properly defined */
+    --spacing: 0.25rem;
 }
 
 @layer theme {
